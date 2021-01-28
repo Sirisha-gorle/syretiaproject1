@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34,49,52,0.9);
+}
+li{
+    list-style-type: none;
+}
+header{
+    position:fixed;
+}
+
+.header-logo {
+    font-size: 36px;
+    padding: 20px 40px;
+    color:ghostwhite;
+}
+span{
+    color:maroon;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right{
+  float: right;
+  
+}
+a:hover{
+    background-color:indianred;
+}
+.header-right a {
+   float:left;
+   line-height: 65px;
+   padding: 0 25px;
+   color: white;
+   display: block;
+   transition: all 0.5s ease 0s;
+   font-size:26px;
+}
+
+
+.top-wrapper {
+    background-image:url("img.10.jpg");
+    background-size: cover;
+    padding:100px 250px 180px 0px;
+    background-color: black;
+    height:660px;
+    
+    
+}
+.top-wrapper background-img{
+    position:relative;
+}
+.top-wrapper img{
+    position:absolute;
+    top:90px;
+    width:35%;
+    height:578px;
+    float: left;
+    border-radius: 5%;
+}
+.webname {
+    font-size:36px;
+    color:springgreen;
+}
+h1{
+    color:ghostwhite;
+    font-size:58px;
+    text-align:right;
+}
+h2{
+    font-size: 30px;
+    text-align:right;
+    color:whitesmoke;
+}
+.name{
+    color:orange;
+}
+.about-wrapper{
+    height:850px;
+    background-color: black;
+    margin-bottom: 20px;
+    border-top: 5px solid white; 
+    
+}
+.info li{
+    list-style:square;
+    
+}
+
+h3{
+    font-size :26px;
+    color: snow;
+}
+.hobbie-wrapper {
+    height: 400px;
+    /*padding-bottom: 80px;
+    padding-top:20px;*/
+    height:735px;
+    background-color:grey;
+    border-top:  5px solid black;
+    border-bottom: 5px solid black;
+}.hobbies{
+  float: left;
+  width: 25%;
+}
+.hobbies p{
+    font-size:26px;
+}
+.hobbies-icon img{
+    width:100%;
+
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.heading h3 {
+  font-weight: bolder;
+  text-align: center;
+  font-size:40px;
+  color:darkblue;
+}
+.interests-wrapper {
+    padding-bottom: 20px;
+    padding-top: 80px;
+    height:800px;
+    background-color:grey;
+    border-bottom: 5px solid black;
+    
+   
+}
+  
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}    
+
+.heading h3 {
+    font-weight: bolder;
+    text-align: center;
+    font-size:40px;
+    color:darkblue;
+}
+
+.interest {
+  float: left;
+  width:50%;
+}
+
+.interest-icon img{
+    width:70%;
+    padding:20px 50px ;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 26px;
+  color:rgba(34,49,52,0.9);
+}
+
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+  
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.facebook{
+  background-color: #239b76;
+  margin-bottom: 10px;
+}
+
+.instagram {
+  background-color:brown;
+  margin-bottom: 10px;
+}
+
+.LinkedIn{
+  background-color:darkblue;
+  margin-bottom: 10px;
+}
+.codeforces{
+  background-color:forestgreen;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.message {
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 3px white;
+}
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+.project-section{
+    height:500px;
+    background-color:grey;
+    
+}
+.project{
+    font-size:30px;
+}
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}    
+.heading h3 {
+    font-weight: normal;
+}
+
+.heading h3 {
+  font-weight: bolder;
+  text-align:center;
+  font-size:40px;
+  color:darkblue;
+}
+.btn:hover {
+  opacity: 1;
+}
+.message {
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 3px white;
+}
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+.project1{
+    background-color:olive;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
